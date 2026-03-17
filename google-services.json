@@ -1,0 +1,200 @@
+{
+  "project_info": {
+    "project_number": "237961341097",
+    "project_id": "conference-geral",
+    "storage_bucket": "conference-geral.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:237961341097:android:8c2e1637f14b2bdee121b8",
+        "android_client_info": {
+          "package_name": "br.com.conference.aliadodotempo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLER_nBNi0ALE7p_NfoDSOKFuj1_GyjJI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:237961341097:android:b09b5a456eac0d3ce121b8",
+        "android_client_info": {
+          "package_name": "br.com.conference.cboom"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLER_nBNi0ALE7p_NfoDSOKFuj1_GyjJI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:237961341097:android:4f0b5d49b6dfce0ee121b8",
+        "android_client_info": {
+          "package_name": "br.com.conference.cepp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLER_nBNi0ALE7p_NfoDSOKFuj1_GyjJI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:237961341097:android:39ab2de5c9c4e3d6e121b8",
+        "android_client_info": {
+          "package_name": "br.com.conference.cobrae"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLER_nBNi0ALE7p_NfoDSOKFuj1_GyjJI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:237961341097:android:36a59e6d7a8985ede121b8",
+        "android_client_info": {
+          "package_name": "br.com.conference.conbrasul"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLER_nBNi0ALE7p_NfoDSOKFuj1_GyjJI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:237961341097:android:2c0df783ae6ec7f0e121b8",
+        "android_client_info": {
+          "package_name": "br.com.conference.contesc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLER_nBNi0ALE7p_NfoDSOKFuj1_GyjJI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:237961341097:android:a687efaa0992cdcae121b8",
+        "android_client_info": {
+          "package_name": "br.com.conference.geral"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLER_nBNi0ALE7p_NfoDSOKFuj1_GyjJI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:237961341097:android:58809e1914daeadae121b8",
+        "android_client_info": {
+          "package_name": "br.com.conference.masterclass"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLER_nBNi0ALE7p_NfoDSOKFuj1_GyjJI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:237961341097:android:9d93a3c54a0291b6e121b8",
+        "android_client_info": {
+          "package_name": "br.com.conference.sueco"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLER_nBNi0ALE7p_NfoDSOKFuj1_GyjJI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:237961341097:android:b4a7e3d4612c30dae121b8",
+        "android_client_info": {
+          "package_name": "br.com.conference.xixfia"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLER_nBNi0ALE7p_NfoDSOKFuj1_GyjJI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
