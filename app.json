@@ -45,7 +45,8 @@
           "photosPermission": "Este aplicativo utiliza a biblioteca de fotos para atualizar a imagem de perfil.",
           "cameraPermission": "Este aplicativo utiliza a câmera para atualizar a imagem de perfil e o cadastro facial."
         }
-      ]
+      ],
+      "expo-web-browser"
     ],
     "experiments": {
       "typedRoutes": true
