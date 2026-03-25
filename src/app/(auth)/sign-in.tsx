@@ -13,6 +13,7 @@ import {
   Platform,
   ScrollView,
   Text,
+  TouchableOpacity,
   View
 } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
@@ -114,6 +115,13 @@ export default function SignInScreen() {
           style={styles.conferenceLogo}
         />
       </View>
+
+      <TouchableOpacity
+        style={styles.deleteAccountButton}
+        onPress={() => Linking.openURL('https://www.conferencebr.com/suporte/')}
+      >
+        <Text style={styles.deleteAccountText}>Solicitar exclusão de conta</Text>
+      </TouchableOpacity>
     </SafeAreaView>
   )
 }

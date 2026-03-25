@@ -51,6 +51,17 @@ const styles = StyleSheet.create({
     width: '100%',
     height: RFValue(50),
   },
+  deleteAccountButton: {
+    position: 'absolute',
+    bottom: 48,
+    alignSelf: 'center',
+    padding: 12,
+  },
+  deleteAccountText: {
+    color: theme.colors.textMuted,
+    fontSize: RFValue(12),
+    textDecorationLine: 'underline',
+  },
 })
 
 
