@@ -2,7 +2,7 @@
   "expo": {
     "name": "8ª Masterclass em Psiquiatria",
     "slug": "conference-masterclass-2026",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "conference-masterclass-2026",
@@ -15,7 +15,7 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "br.com.conference.masterclass",
-      "buildNumber": "1.0.1",
+      "buildNumber": "1.0.2",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
       }
@@ -27,7 +27,7 @@
       },
       "predictiveBackGestureEnabled": false,
       "package": "br.com.conference.masterclass",
-      "versionCode": 2,
+      "versionCode": 3,
       "permissions": [
         "android.permission.RECORD_AUDIO"
       ]

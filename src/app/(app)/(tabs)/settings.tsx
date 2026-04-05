@@ -9,6 +9,7 @@ import { useCallback, useEffect, useState } from 'react'
 import {
   Alert,
   Image,
+  Linking,
   StyleSheet,
   Text,
   TouchableOpacity,
@@ -198,6 +199,12 @@ export default function SettingsScreen() {
           </TouchableOpacity>
         )}
       </View>
+      <TouchableOpacity
+        style={styles.deleteAccountButton}
+        onPress={() => Linking.openURL('https://www.conferencebr.com/suporte/')}
+      >
+        <Text style={styles.deleteAccountText}>Solicitar exclusão de conta</Text>
+      </TouchableOpacity>
     </SafeAreaView>
   )
 }
@@ -317,6 +324,17 @@ const styles = StyleSheet.create({
   redoFaceRegisterText: {
     color: theme.colors.textMuted,
     fontSize: RFValue(10),
+    textDecorationLine: 'underline',
+  },
+  deleteAccountButton: {
+    position: 'absolute',
+    bottom: 48,
+    alignSelf: 'center',
+    padding: 12,
+  },
+  deleteAccountText: {
+    color: theme.colors.textMuted,
+    fontSize: RFValue(12),
     textDecorationLine: 'underline',
   },
 })
