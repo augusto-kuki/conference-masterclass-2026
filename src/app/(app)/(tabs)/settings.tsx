@@ -5,11 +5,11 @@ import { Feather } from '@expo/vector-icons'
 import AsyncStorage from '@react-native-async-storage/async-storage'
 import * as ImagePicker from 'expo-image-picker'
 import { type Href, router, useFocusEffect } from 'expo-router'
+import * as WebBrowser from 'expo-web-browser'
 import { useCallback, useEffect, useState } from 'react'
 import {
   Alert,
   Image,
-  Linking,
   StyleSheet,
   Text,
   TouchableOpacity,
@@ -201,7 +201,7 @@ export default function SettingsScreen() {
       </View>
       <TouchableOpacity
         style={styles.deleteAccountButton}
-        onPress={() => Linking.openURL('https://www.conferencebr.com/suporte/')}
+        onPress={() => WebBrowser.openBrowserAsync('https://www.conferencebr.com/suporte/')}
       >
         <Text style={styles.deleteAccountText}>Solicitar exclusão de conta</Text>
       </TouchableOpacity>

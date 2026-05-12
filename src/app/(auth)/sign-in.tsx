@@ -4,12 +4,12 @@ import { EVENT_TOKEN } from '@/constants'
 import { useAuth, useLoader } from '@/hooks'
 import { api } from '@/services/api'
 import { type Href, router } from 'expo-router'
+import * as WebBrowser from 'expo-web-browser'
 import { useState } from 'react'
 import {
   Alert,
   Image,
   KeyboardAvoidingView,
-  Linking,
   Platform,
   ScrollView,
   Text,
@@ -67,8 +67,8 @@ export default function SignInScreen() {
     }
   }
 
-  function navigateToSignUp() {
-    Linking.openURL(
+  async function navigateToSignUp() {
+    await WebBrowser.openBrowserAsync(
       'https://api.whatsapp.com/send/?phone=5511933167946&text=Ol%C3%A1,%20baixei%20o%20aplicativo%207%C2%AA%20Masterclass%20em%20Psiquiatria%20e%20gostaria%20de%20realizar%20minha%20inscri%C3%A7%C3%A3o.'
     )
   }
@@ -118,7 +118,7 @@ export default function SignInScreen() {
 
       <TouchableOpacity
         style={styles.deleteAccountButton}
-        onPress={() => Linking.openURL('https://www.conferencebr.com/suporte/')}
+        onPress={() => WebBrowser.openBrowserAsync('https://www.conferencebr.com/suporte/')}
       >
         <Text style={styles.deleteAccountText}>Solicitar exclusão de conta</Text>
       </TouchableOpacity>
