@@ -153,7 +153,7 @@ export default function HomeScreen() {
       <View style={styles.content}>
         <WebView
           source={{
-            uri: `https://www.conferencebr.com/${APP_TYPE.APP_WEB}/${EVENT_CODE}/BR/?HASHSOCIO=${user.hash_auth}&ambiente_conference=${CONFERENCE_APP_TYPE.APP}&nivel_autenticacao=${authState}`,
+            uri: `https://www.conferencebr.com/${APP_TYPE.APP_WEB}/${EVENT_CODE}/BR/?HASHSOCIO=${user.hash_auth}&ambiente_conference=${CONFERENCE_APP_TYPE.APP}&nivel_autenticacao=${authState}&user_os=${Platform.OS}`,
           }}
           useWebKit
           cacheEnabled
